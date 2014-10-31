@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Jeffinho: uma culinária rio - pardense ganha o país",
+        "segment": "GASTRONOMIA",
+        "imagem": "img/reportagens/gastronomia/1ed/Jefferson_rueda.jpg",
+        "cor":"red",
+        "data_publicacao":"03/11/2014",
+        "texto_resumo":"A imprensa paulistana abriu grandes espaços para a culinária autoral do rio-pardense Jefferson Rueda (34 anos). Ele foi eleito o “Chef do Ano” pelo “Comer & Beber”, da revista Veja. Jeffinho, como é amplamente sabido, abriu seu caminho criando em seu restaurante Attimo suas receitas..."
+    },
+    {
+        "title": "Financiamento - A Caixa mostra as opções",
+        "segment": "CONSTRUÇÃO",
+        "imagem": "img/reportagens/construcao/1ed/mini_resumo.jpg",
+        "cor":"#14b9d5",
+        "data_publicacao":"15/05/2014",
+        "texto_resumo":"Para o superintendente regional Carlos Hen- rique Almeida Custódio, o recorde histórico no financiamento à casa própria se deve à melhora das condições para que os brasileiros adquiram um imóvel. “A estabilidade econômica, somada ao aumento da renda e melhores condições de financiamento..."
+    }
+]

@@ -1,0 +1,119 @@
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+
+.border-radio-top {
+    border-top-left-radius: 12px 12px;
+    border-top-right-radius: 12px 12px;
+    border-color: #333;
+    border: 1px;
+}
+
+.border-radio-botton {
+    border-bottom-left-radius: 11px 11px;
+    border-bottom-right-radius: 11px 11px;
+    border-color: #333;
+    border: 1px;
+}
+/*---------------------------------------------------------
+ Custom logo (_scaffolding.scss)
+-------------------------------------------------------- */
+
+.custom-logo {
+    /*    background-image: url('../images/imagem_transparente.png');*/
+    width: 300px;
+    height: auto;
+    display: block;
+    max-width: 100%;      
+    margin-bottom: 10px;
+}
+.custom-logo a {
+    display: block;
+    width: 100%;
+    height: 0;
+    font: 0/0 a;
+    text-decoration: none;
+    text-shadow: none;
+    color: transparent;
+}
+
+.centered .custom-logo {
+    margin: 0 auto;
+}
+.centered .site-navigation {
+    margin-bottom: 0;
+}
+.site-header {
+    position: relative;
+    margin-bottom: 50px;
+    margin-bottom: 4rem;
+}
+.post .h3 {
+    font-family: "goudy_bookletter_1911regular";
+    font-size: 20px;
+    line-height: 1.3;
+    color: #9A1D0D;
+    text-transform:uppercase;
+    letter-spacing:-1px;
+    font-weight: bold;
+    padding: 10px 10px 0px 10px;
+}
+
+.post .h4 {
+    font-size: 18px;
+    line-height: 1.3;
+    color: black;
+    font-weight: bold;
+    border:1px solid #fff;
+    border-width:1px 0 0 1px;
+    border-bottom:1px solid #e7e7e7;
+    padding: 0px 10px 10px 10px;
+}
+
+.post .p {
+    font-size: 1em;
+    color: black;
+    padding: 10px 10px 0px 10px;
+}
+
+.post a {
+  color: #2C88A7;
+  font-weight: bold;
+  padding: 100px 10px 0px 10px;
+}
+
+div.mitem:hover img { 
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  /*transform: rotateY(.5turn);*/
+/*cursor: url("../images/grabbing_1.png") 8 8, move;*/
+}
+
+/*---------------------------------------------------------
+ Clearfix para resolver problema de sobreposiÃ§Ã£o do float
+-------------------------------------------------------- */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}

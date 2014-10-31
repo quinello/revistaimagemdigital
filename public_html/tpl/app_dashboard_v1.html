@@ -1,0 +1,66 @@
+<div class="hbox hbox-auto-xs hbox-auto-sm" ng-init="
+    app.settings.asideFolded = false;
+            app.settings.asideDock = true;">
+
+
+    <div id="container" ng-controller="NewsController as newsCtrl">
+
+        <div class="mitem" data-ng-include="'tpl/blocks/nav.html'"></div>
+
+        <!--<div class="mitem" data-ng-include="'tpl/blocks/slides.html'"></div>-->
+
+        <div class="mitem XGG">
+
+        
+            <!-- carousel -->
+            <div ng-controller="CarouselDemoCtrl" class="panel border-radio-botton border-radio-top" set-ng-animate="false">
+                <carousel interval="myInterval">
+                    <slide ng-repeat="slide in slides" active="slide.active">
+                        <img ng-src="{{slide.image}}" class="img-full border-radio-top border-radio-botton" >
+                        <div class="carousel-caption">
+                            <h4 class="text-u-c">{{slide.text}}</h4>
+                        </div>
+                    </slide>
+                </carousel>
+            </div>
+            <!-- / carousel -->   
+
+        </div>
+
+        <div ng-class="new .tamanho" ng-repeat="new in newsCtrl.news" ng-if="SegmentoMarkIt(new .segment)" >
+            <div class="thumbnail no-padder border-radio-top border-radio-botton">                    
+                 <a ui-sref={{new.link}}>
+                <img ng-src="{{new .imagem}}" alt="" class="border-radio-top" style="height: {{new .altura}} "/>
+                 </a>
+                <div class="post">
+                    <h3 class="h3 text-u-c">{{new .capa}}</h3>
+                    <h4 class="h4">{{new .title}}</h4>
+                    <p class="p">{{new .texto_resumo}}</p>
+                    <a ui-sref={{new.link}}>
+                        <button class="btn btn-link">Continue lendo...</button>
+                    </a>
+                </div>
+                <div class="bg-danger wrapper-xs text-center border-radio-botton" style="background: {{new .cor}}">          
+                    <h5 class="text-u-c m-n"><strong>{{new .segment}}</strong></h5>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+
+</div>
+<script src="js/masonry/masonry.pkgd.js" type="text/javascript"></script>
+<script src="js/masonry/imagesloaded.pkgd.js" type="text/javascript"></script>
+<script>
+                                var container = document.querySelector('#container');
+                                var msnry;
+                                // initialize Masonry after all images have loaded
+                                imagesLoaded(container, function() {
+                                msnry = new Masonry(container, {
+                                itemSelector: '.mitem',
+                                        columnWidth: 100,
+                                        isAnimated: true,
+                                        transitionDuration: '2.0s'
+                                });
+                                });
+</script>  

@@ -1,0 +1,86 @@
+[
+    {
+        "capa": "Roteiro gastronômico",
+        "title": "Este Roteiro Gastronômico expõe tudo o que temos para os rio-pardenses e visitantes.",
+        "segment": "Gastronomia",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "cor": "red",
+        "data_publicacao": "03/11/2014",
+        "texto_resumo": "Para quem frequenta há muitos anos as cidades da redondeza, que gosta de fazer um programa com a família de fim de semana e aproveita...",
+        "tamanho": "mitem GG",
+        "link":"app.ui.googlemap",
+        "altura":"467px"
+    },
+    {
+        "capa": "Nosso Chef que foi mais longe",
+        "title": "É impossível falar de culinária rio-pardense sem homenagear o melhor: Jeffinho Rueda.",
+        "segment": "Gastronomia",
+        "imagem": "img/reportagens/gastronomia/1ed/rueda_mini.jpg",
+        "cor": "red",
+        "data_publicacao": "03/11/2014",
+        "texto_resumo": "...",
+        "tamanho": "mitem",
+        "link":"#",
+        "altura":"200px"
+    },
+    {
+        "capa": "Comida dos pescadores",
+        "title": "A comida e a indispensável cerveja ocupam mais atenção dos pescadores do que se pensa.",
+        "segment": "Gastronomia",
+        "imagem": "img/reportagens/gastronomia/1ed/pesca_mini2.jpg",
+        "cor": "red",
+        "data_publicacao": "03/11/2014",
+        "texto_resumo": "",
+        "tamanho": "mitem",
+        "link":"#",
+        "altura":"225px"
+    },
+    {
+        "capa": "Vinhos liberados",
+        "title": "O vinho é uma bebida muito falada e pouco consumida. Mas, é de fácil compreensão.",
+        "segment": "Gastronomia",
+        "imagem": "img/reportagens/gastronomia/1ed/lona_mini.jpg",
+        "cor": "red",
+        "data_publicacao": "03/11/2014",
+        "texto_resumo": "",
+        "tamanho": "mitem",
+        "link":"#",
+        "altura":"450px"
+    },
+    {
+        "capa": "Passe uma noite virtual assando o porco paraguaio",
+        "title": "Os segredos da noite de preparo de uma redescoberta da carne do porco: o paraguaio.",
+        "segment": "Gastronomia",
+        "imagem": "img/reportagens/gastronomia/1ed/porco_paraguaia_mini.jpg",
+        "cor": "red",
+        "data_publicacao": "03/11/2014",
+        "texto_resumo": "",
+        "tamanho": "mitem",
+        "link":"#",
+        "altura":"208px"
+    },
+    {
+        "capa": "Nossa Comida Italiana Original",
+        "title": "A culinária italiana é a rainha das artes culinárias e São José tem chance de estar no topo.",
+        "segment": "Gastronomia",
+        "imagem": "img/reportagens/gastronomia/1ed/pizza_mini.jpg",
+        "cor": "red",
+        "data_publicacao": "03/11/2014",
+        "texto_resumo": "",
+        "tamanho": "mitem",
+        "link":"#",
+        "altura":"201px"
+    },
+    {
+        "capa": "A difícil montagem da casa",
+        "title": "Diferente de outras lojas comerciais, o negócio de alimentos tem montagem muito complexa.",
+        "segment": "Gastronomia",
+        "imagem": "img/reportagens/gastronomia/1ed/nil_maq_mini.jpg",
+        "cor": "red",
+        "data_publicacao": "03/11/2014",
+        "texto_resumo": "Quem, ao entrar em um restaurante para jantar com a família, numa lanchonete com os amigos ou mesmo em uma padaria para comprar seu pão matinal, pensa...",
+        "tamanho": "mitem",
+        "link":"#",
+        "altura":"221px"
+    }
+]

@@ -1,0 +1,20 @@
+<div class="wrapper-md">
+    <div class="panel b-a" ng-controller="MapCtrl">
+        <div class="panel-heading h2 text-center">Roteiro Gastronômico São José do Rio Pardo</div>        
+        <div class="pull-left">
+            <ul class="nav nav-pills nav-stacked">
+                <li ng-repeat="marker in myMarkers">
+                    <a class="btn btn-default m-b-sm" ng-click="openInfoWindow($event, marker)">
+                        {{marker.title}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="map_canvas" style="min-height: 400px;width: auto; height: auto;" ui-map="myMap"
+             ui-event="{'map-zoom_changed': 'setZoomMessage(myMap.getZoom())' , 'map-idle' : 'loadMakers()'}"      
+             ui-options="mapOptions">
+        </div>
+
+    </div>
+</div>

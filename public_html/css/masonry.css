@@ -1,0 +1,43 @@
+.mitem {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+.mitem img {
+    display: block;
+    width: 100%;
+}
+
+.mitem.GG {
+    width: 600px;
+    float: left;
+    padding: 10px;
+}
+
+.mitem.GG img {
+    display: block;
+    width: 100%;
+}
+
+.mitem.XGG {
+    width: 800px;
+    float: left;
+    padding: 10px;
+}
+
+.mitem.XGG img {
+    display: block;
+    width: 100%;
+}
+
+.nav-stacked {
+    width: 300px;
+    float: left;
+}
+
+
+.nav-stacked img {
+/*    display: block;*/
+    width: 100%;
+}

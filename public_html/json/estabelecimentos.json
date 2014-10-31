@@ -1,0 +1,20 @@
+[
+    {
+        "segment": "Gastronomia",
+        "nome": "Bar e Restaurante Quintal",
+        "endereco": "RUA TREZE DE MAIO, 354 – CENTRO",
+        "telefone": "9999-9999",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    },
+     {
+        "segment": "Gastronomia",
+        "nome": "Bar Monte Castelo",
+        "endereco": "Av. Independência, 600 - Centro",
+        "telefone": "3681-4884",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.604902,
+        "lng": -46.893778
+    }
+]

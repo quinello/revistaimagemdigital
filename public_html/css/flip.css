@@ -1,0 +1,38 @@
+div.flip-3d {
+perspective: 1200px; width: 30%; float: left;
+}
+
+div.flip-3d figure {
+position: relative;
+transform-style: preserve-3d;
+transition: 1s transform;
+font-size: 1.6rem;
+margin: 3px;
+}
+
+div.flip-3d figure img {
+width: 100%; height: auto;
+}
+
+div.flip-3d figure figcaption {
+
+border: 4px;
+position: absolute;
+width: 100%; 
+height: 100%; 
+top: 0;
+transform: rotateY(.5turn) translateZ(1px);
+background: rgba(255,255,255,0.9);
+text-align: justify;
+padding: 5%;
+opacity: 0.6;
+transition: 1s .5s opacity;
+}
+
+div.flip-3d:hover figure { 
+transform: rotateY(.5turn);
+cursor: url("../images/grabbing_1.png") 8 8, move;
+}
+
+div.flip-3d:hover figure figcaption { opacity: 1; }
+
