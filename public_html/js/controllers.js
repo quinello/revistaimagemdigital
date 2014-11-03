@@ -134,7 +134,7 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
                 $scope.addSlide = function() {
                     slides.push({
                         image: 'img/slides/c' + slides.length + '.jpg',
-                        text: ['Comemorando a atividade crescente da culinária de nossa cidade, que cada vez mais e melhor atende a clientela', 'Um setor de grande impulso na economia de uma cidade', 'Nosso próximo lançamento'][slides.length % 3]
+                        text: ['Comemorando a atividade crescente da culinária de nossa cidade, que cada vez mais e melhor atende a clientela', 'Um setor de grande impulso na economia de uma cidade', 'Mostrando beleza dentro e fora de São José do Rio Pardo'][slides.length % 3]
                     });
                 };
                 for (var i = 0; i < 3; i++) {

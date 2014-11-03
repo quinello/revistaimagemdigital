@@ -3,7 +3,7 @@
         "capa": "Roteiro gastronômico",
         "title": "Este Roteiro Gastronômico expõe tudo o que temos para os rio-pardenses e visitantes.",
         "segment": "Gastronomia",
-        "imagem": "img/reportagens/gastronomia/1ed/mapa_mini.jpg",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
         "cor": "red",
         "data_publicacao": "03/11/2014",
         "texto_resumo": "Para quem frequenta há muitos anos as cidades da redondeza, que gosta de fazer um programa com a família de fim de semana e aproveita...",
@@ -30,7 +30,7 @@
         "imagem": "img/reportagens/gastronomia/1ed/pesca_mini2.jpg",
         "cor": "red",
         "data_publicacao": "03/11/2014",
-        "texto_resumo": "",
+        "texto_resumo": "Quem pensa que na beira do rio se come somente peixe nas grandes pescarias, e uma coisinha aqui, outra ali, quando se pesca “por perto”, está muito enganado...",
         "tamanho": "mitem",
         "link":"#",
         "altura":"225px"
@@ -42,7 +42,7 @@
         "imagem": "img/reportagens/gastronomia/1ed/lona_mini.jpg",
         "cor": "red",
         "data_publicacao": "03/11/2014",
-        "texto_resumo": "",
+        "texto_resumo": "“Estou cansado de tanta frescura quando o tema é vinho”, afirma o enólogo argentino-brasileiro Adolfo Alberto Lona, na abertura de seu blog...",
         "tamanho": "mitem",
         "link":"#",
         "altura":"450px"
@@ -66,7 +66,7 @@
         "imagem": "img/reportagens/gastronomia/1ed/pizza_mini.jpg",
         "cor": "red",
         "data_publicacao": "03/11/2014",
-        "texto_resumo": "",
+        "texto_resumo": "“Importantes na comida italiana são os molhos”, assevera Marco Aiello, professor de italiano e de comida italiana de São José do Rio Pardo, com alunos em toda a região...",
         "tamanho": "mitem",
         "link":"#",
         "altura":"201px"
