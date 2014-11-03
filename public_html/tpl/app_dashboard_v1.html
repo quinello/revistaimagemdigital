@@ -5,38 +5,68 @@
 
     <div id="container" ng-controller="NewsController as newsCtrl">
 
-        <div class="mitem" data-ng-include="'tpl/blocks/nav.html'"></div>
-
+        <!--<div class="mitem" data-ng-include="'tpl/blocks/nav.html'"></div>-->
         <!--<div class="mitem" data-ng-include="'tpl/blocks/slides.html'"></div>-->
 
-        <div class="mitem XGG">
+        <!-- logo -->
+        <div class="mitem">
+            <div class="thumbnail no-padder border-radio-top border-radio-botton" style="background-color: black;">      
+                <div class="custom-logo">      
+                    <img class="border-radio-top" ng-src="img/logo_revista_fundo_preto.png" alt="" style="height: 407px"/>                           
+                </div>
+                <div class="lead text-left padder-md padder-v"  style="font-weight: bolder; color: white;">
+                    <p>Revista Imagem aborda as vivencias da população de São José do Rio Pardo reavivando nossa cultura e tradição, sem perder de vista o moderno.</p>
+                </div>
+                <!--            <div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h2 class="panel-title lead text-center">Filtre as reportagens pelo segmento</h2>
+                                    </div>
+                                    <div class="panel-body">
+                                        <label class="checkbox i-checks m-l-md m-b-md text-u-c" ng-repeat="lib in libs">
+                                            <input type="checkbox" ng-model="lib.checked"><i></i>
+                                            {{lib.name}}
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>-->
+            </div>
+        </div>
+        <!-- logo -->
 
-        
-            <!-- carousel -->
-            <div ng-controller="CarouselDemoCtrl" class="panel border-radio-botton border-radio-top" set-ng-animate="false">
+        <!-- carousel -->
+        <div class="mitem XGG" style="background: transparent;">   
+            <div ng-controller="CarouselDemoCtrl" class="panel border-radio-botton border-radio-top" set-ng-animate="false" style="background: transparent;">
+                <div class="panel-heading border-radio-top" style="background: black;">
+                </div>
                 <carousel interval="myInterval">
                     <slide ng-repeat="slide in slides" active="slide.active">
-                        <img ng-src="{{slide.image}}" class="img-full border-radio-top border-radio-botton" >
-                        <div class="carousel-caption">
-                            <h4 class="text-u-c">{{slide.text}}</h4>
+                        <img ng-src="{{slide.image}}" class="img-full" >
+                        <div class="carousel-caption">                            
+                            <h2>{{slide.text}}</h2>                            
                         </div>
+
                     </slide>
                 </carousel>
-            </div>
-            <!-- / carousel -->   
-
+                <div class="panel-footer border-radio-botton" style="background: black;">
+                    <div class="bg-danger wrapper-xs text-center" style="background: black;">          
+                        <h4 class="text-u-c m-n"><strong>Segmentos da Revista Imagem</strong></h4>
+                    </div>
+                </div>
+            </div>            
         </div>
+        <!-- / carousel -->   
 
         <div ng-class="new .tamanho" ng-repeat="new in newsCtrl.news" ng-if="SegmentoMarkIt(new .segment)" >
             <div class="thumbnail no-padder border-radio-top border-radio-botton">                    
-                 <a ui-sref={{new.link}}>
-                <img ng-src="{{new .imagem}}" alt="" class="border-radio-top" style="height: {{new .altura}} "/>
-                 </a>
+                <a ui-sref={{new.link}}>
+                    <img ng-src="{{new .imagem}}" alt="" class="border-radio-top" style="height: {{new .altura}} "/>
+                </a>
                 <div class="post">
-                    <h3 class="h3 text-u-c">{{new .capa}}</h3>
-                    <h4 class="h4">{{new .title}}</h4>
-                    <p class="p">{{new .texto_resumo}}</p>
                     <a ui-sref={{new.link}}>
+                        <h3 class="h3 text-u-c">{{new .capa}}</h3>
+                        <h4 class="h4">{{new .title}}</h4>
+                        <p class="p">{{new .texto_resumo}}</p>         
                         <button class="btn btn-link">Continue lendo...</button>
                     </a>
                 </div>
@@ -58,9 +88,9 @@
                                 imagesLoaded(container, function() {
                                 msnry = new Masonry(container, {
                                 itemSelector: '.mitem',
-                                        columnWidth: 100,
                                         isAnimated: true,
-                                        transitionDuration: '2.0s'
+                                        transitionDuration: '2.0s',
+                                        isFitWidth: true                                        
                                 });
                                 });
 </script>  

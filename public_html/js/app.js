@@ -242,9 +242,13 @@ var app = angular.module('app', [
                 url: '/profile',
                 templateUrl: 'tpl/page_profile.html'
             })
-            .state('app.page.post', {
-                url: '/post',
-                templateUrl: 'tpl/page_post.html'
+            .state('app.page.post_roteiro', {
+                url: '/post_0',
+                templateUrl: 'tpl/post/gastronomia/1ed/roteiro/page_post_roteiro.html'
+            })
+            .state('app.page.post_jeffinho', {
+                url: '/post_1',
+                templateUrl: 'tpl/post/gastronomia/1ed/jeffinho/page_post_jeffinho.html'
             })
             .state('app.page.search', {
                 url: '/search',

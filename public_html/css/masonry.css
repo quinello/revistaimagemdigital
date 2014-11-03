@@ -21,7 +21,7 @@
 }
 
 .mitem.XGG {
-    width: 800px;
+    width: 900px;
     float: left;
     padding: 10px;
 }
@@ -36,6 +36,10 @@
     float: left;
 }
 
+/* center container with CSS */
+#fit-width .masonry {
+  margin: 0 auto;
+}
 
 .nav-stacked img {
 /*    display: block;*/

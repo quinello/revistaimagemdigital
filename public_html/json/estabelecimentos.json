@@ -3,10 +3,10 @@
         "segment": "Gastronomia",
         "nome": "Bar e Restaurante Quintal",
         "endereco": "RUA TREZE DE MAIO, 354 – CENTRO",
-        "telefone": "9999-9999",
+        "telefone": "3608-8158",
         "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
-        "lat": -21.595839,
-        "lng": -46.890816
+        "lat": -21.596178,
+        "lng": -46.8907896
     },
      {
         "segment": "Gastronomia",
@@ -17,4 +17,335 @@
         "lat": -21.604902,
         "lng": -46.893778
     }
+    ,
+     {
+        "segment": "Gastronomia",
+        "nome": "Bell Salgados",
+        "endereco": "Av. João Batista Junqueira, 40 - Vila Brasil",
+        "telefone": "3681-6706",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Empório Bar e Restaurante",
+        "endereco": "Rua Júlio de Mesquita, 231 - Centro",
+        "telefone": "3608-2621",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.6005422,
+        "lng": -46.8857361
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Espetinho Gruf",
+        "endereco": "Av. Dep. Eduardo V. Nasser, 851 – Centro",
+        "telefone": "3681-4911",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.5304101,
+        "lng": -46.8159867
+    }
+     ,
+    {
+        "segment": "Gastronomia",
+        "nome": "MC Daniel's Burg's",
+        "endereco": "Rua Campos Salles, 900B - Centro",
+        "telefone": "3608-5591",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.599366,
+        "lng": -46.8929656
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Aga",
+        "endereco": "Rua Ananias Barbosa, 122 - Centro",
+        "telefone": "3608-2388",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.5943073,
+        "lng": -46.8889277
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante e Buffet Casanova",
+        "endereco": "Rua Cândido Faria , 229 - Centro",
+        "telefone": "3681-2909",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.6005174,
+        "lng": -46.8948914
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Tyolando",
+        "endereco": "Av. Independência, 534 - Centro",
+        "telefone": "3608-5767",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.6046253,
+        "lng": -46.8935854
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Stufa Pizza Bar",
+        "endereco": "Rua Treze de Maio, 176 - Centro",
+        "telefone": "3608-5004",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.5956221,
+        "lng": -46.8903554
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Fonseca",
+        "endereco": "Av. Eduardo V. Nasser, 700 - Centro",
+        "telefone": "3682-8222",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.599047,
+        "lng": -46.891973
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Buffet Luiz Muradi",
+        "endereco": "Rua Dr. João Oliveira Machado, 68 - Jardim Aeroporto",
+        "telefone": "3681-4332",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.60901,
+        "lng": -46.891987
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Curva do Peixe",
+        "endereco": "Av. José O. Figueiredo, 350 - Jd. Agenor Tadei",
+        "telefone": "3608-5524",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.603382,
+        "lng": -46.888092
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Bar, Salgateria e Cervejaria Fafá",
+        "endereco": "Rua Siqueira Campos, 964-A - Bonsucesso",
+        "telefone": "3608-2023",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.5940314,
+        "lng": -46.8794413
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Buffet Raddi",
+        "endereco": "Avenida Brasil, 1030",
+        "telefone": "3681-4452",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.6170099,
+        "lng": -46.8947031
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Castelo dos Sonhos Buffet",
+        "endereco": "Av. Belmonte, 310 - Vila Brasil",
+        "telefone": "3608-8189",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.6064433,
+        "lng": -46.8993486
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Santo Bar AQ",
+        "endereco": "Av. dos Braghettas, 245A - Dist. Industrial",
+        "telefone": "3608-4833",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Cantinho da Pamonha",
+        "endereco": "Rua Jorge Tibiriçá, 190 - Centro",
+        "telefone": "3681-2905",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Cantinho do Café",
+        "endereco": "Rua Marechal Floriano, 88 - Centro",
+        "telefone": "3608-3562",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Dima's Bar Restaurante",
+        "endereco": "Rua Jorge Tibiriçá, 21 - Centro",
+        "telefone": "3681-2825",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Porão 88",
+        "endereco": "Rua Marechal Floriano, 296 - Centro",
+        "telefone": "3608-5528",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Ranchão Restaurante, Choperia e Pizzaria",
+        "endereco": "Rua Francisco Glicério, 177 - Centro",
+        "telefone": "3608-6124",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Raribb´s",
+        "endereco": "Rua José Andreoli , 31 - Centro",
+        "telefone": "3608-4787",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Brasil",
+        "endereco": "Rua Ananias Barbosa, 107 - Centro",
+        "telefone": "3608-5419",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Santa Villa Sushi Bar",
+        "endereco": "Praça da Bandeira, 26 - Centro",
+        "telefone": "3608-8793",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Tia Jô",
+        "endereco": "Praça Tiradentes, 165 - Centro",
+        "telefone": "3608-5510",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Bar do Nenê I",
+        "endereco": "Av. dos Lírios, 41 - Vila Maschietto",
+        "telefone": "99314-6955",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Bar do Nenê II",
+        "endereco": "Av. dos Lírios, 132 - Vila Maschietto",
+        "telefone": "99457-2261",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "André Personal Chef",
+        "endereco": "Rua Dr. Salgado Filho, 214 - Alto B. Vista",
+        "telefone": "3608-2718",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Buffet Salão Donana Festas e Eventos",
+        "endereco": "Rua José Maldonado Peres, 1331 - Santo Antonio",
+        "telefone": "3608-1110",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Restaurante Ni Hao Cozinha Oriental",
+        "endereco": "Rua Capitão João Teodoro Nogueira, 297 - Santo Antonio",
+        "telefone": "3681-3793",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Churrascaria do Zé Carneiro",
+        "endereco": "Av. Brasil, 1200",
+        "telefone": "3681-5212",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Buffet Trivial",
+        "endereco": "Av. Antonio José Quessada, 101 - Ditrito Industrial",
+        "telefone": "3681-2394",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Venda do Osório",
+        "endereco": "Sítio Rio Verde, s/n - Zona Rural",
+        "telefone": "",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
+    ,
+    {
+        "segment": "Gastronomia",
+        "nome": "Lanchonet e Cantina MAAB'S",
+        "endereco": "Rua Curupaiti, 591 - Centro",
+        "telefone": "3681-4346",
+        "imagem": "img/reportagens/gastronomia/1ed/roteiro_mini.jpg",
+        "lat": -21.595839,
+        "lng": -46.890816
+    }
 ]
+

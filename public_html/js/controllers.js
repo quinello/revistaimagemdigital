@@ -129,12 +129,12 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
                 };
             }])
         .controller('CarouselDemoCtrl', ['$scope', function($scope) {
-                $scope.myInterval = 3000;
+                $scope.myInterval = 6000;
                 var slides = $scope.slides = [];
                 $scope.addSlide = function() {
                     slides.push({
                         image: 'img/slides/c' + slides.length + '.jpg',
-                        text: ['rqwerwe', 'werwer', 'werwerwe', ''][slides.length % 4]
+                        text: ['Comemorando a atividade crescente da culinária de nossa cidade, que cada vez mais e melhor atende a clientela', 'Um setor de grande impulso na economia de uma cidade', 'Nosso próximo lançamento'][slides.length % 3]
                     });
                 };
                 for (var i = 0; i < 3; i++) {

@@ -663,7 +663,7 @@ body {
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .app {
@@ -1324,7 +1324,7 @@ body {
     margin-left: 0;
   }
   .app-aside-dock.app-aside-fixed.app-header-fixed {
-    padding-top: 115px;
+    padding-top: 30px;    
   }
   .app-aside-dock.app-aside-fixed .app-aside {
     position: fixed;

@@ -24,7 +24,7 @@ app.controller('MapCtrl', ['$scope', '$http', function($scope, $http) {
                 for (var i = 0; i < revista.estabelecimentos.length; i++) {
                     var marker = new google.maps.Marker({
                         map: $scope.myMap,
-                        icon: 'img/icons/pizzaria.png',
+                        icon: 'img/icons/icon_vermelho.png',
                         title: revista.estabelecimentos[i].nome,
                         position: new google.maps.LatLng(revista.estabelecimentos[i].lat, revista.estabelecimentos[i].lng)
                     });
@@ -41,7 +41,7 @@ app.controller('MapCtrl', ['$scope', '$http', function($scope, $http) {
 
         $scope.mapOptions = {
             center: new google.maps.LatLng(-21.5971451, -46.8890597),
-            zoom: 15,
+            zoom: 17,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             styles: $scope.myStyle
         };
