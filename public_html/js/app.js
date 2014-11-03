@@ -250,6 +250,18 @@ var app = angular.module('app', [
                 url: '/post_1',
                 templateUrl: 'tpl/post/gastronomia/1ed/jeffinho/page_post_jeffinho.html'
             })
+            .state('app.page.post_porco', {
+                url: '/post_2',
+                templateUrl: 'tpl/post/gastronomia/1ed/porco/page_post_porco.html'
+            })
+            .state('app.page.post_contato', {
+                url: '/post_contato',
+                templateUrl: 'tpl/post/contato/page_post_contato.html'
+            })
+            .state('app.page.post_equipe', {
+                url: '/post_equipe',
+                templateUrl: 'tpl/post/contato/page_post_equipe.html'
+            })
             .state('app.page.search', {
                 url: '/search',
                 templateUrl: 'tpl/page_search.html'

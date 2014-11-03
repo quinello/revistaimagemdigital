@@ -19,19 +19,21 @@
         <!-- map -->
         <link href="css/map.css" rel="stylesheet" type="text/css"/>
 
-        <!-- loader -->
-        <link href="css/loader.css" rel="stylesheet" type="text/css"/>
+<!--         loader 
+        <link href="css/loader.css" rel="stylesheet" type="text/css"/>-->
 
 
     </head>
     <body ng-controller="AppCtrl">
-        <div class="se-pre-con"></div>
+<!--        <div class="se-pre-con"></div>-->
         <div class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}" ui-view></div>
 
 
+        
         <!-- jQuery -->
         <script src="js/jquery/jquery.min.js"></script>
-        <script src="js/jquery/modernizr.js"</script>
+<!--        <script src="js/jquery/modernizr.js"</script>-->
+        
 
         <!-- Angular -->
         <script src="js/libs/angular/angular.js"></script>
@@ -46,6 +48,7 @@
         <script src="js/angular/ui-jq.js"></script>
         <script src="js/angular/ui-load.js"></script>
         <script src="js/angular/ui-validate.js"></script>
+                
         <!-- App -->
         <script src="js/app.js"></script>
         <script src="js/services.js"></script>
@@ -59,15 +62,17 @@
         <!-- Salvattore -->
         <!--  <script src="js/salvattore/salvattore.js" type="text/javascript"></script>-->
 
-        <!-- loader -->
+<!--         loader 
         <script>
                     //paste this code under head tag or in a seperate js file.
                     // Wait for window load
                     $(window).load(function() {
                         // Animate loader off screen
                         $(".se-pre-con").fadeOut("slow");;
+                        alert("tese");
                     });
-        </script>
+        </script>-->
+        
 
     </body>
 </html>
