@@ -1,22 +1,39 @@
-@media screen and (max-width: 480px){
-	#grid[data-columns]::before {
-		content: '1 .column.size-1of1';
-	}
+/*
+Spezific styling for salvattore
+Feel free to edit it as you like
+More info at http://salvattore.com
+*/
+/* Base styles */
+.column {
+    float: left;
 }
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-	#grid[data-columns]::before {
-		content: '2 .column.size-1of2';
-	}
+.size-1of4 {
+    width: 25%;
 }
-@media screen and (min-width: 769px) {
-	#grid[data-columns]::before {
-		content: '3 .column.size-1of3';
-	}
+.size-1of3 {
+    width: 33.333%;
 }
-
-/* Again, you’re free to use and define the classes: */
-.column { float: left; }
-.size-1of1 { width: 100%; }
-.size-1of2 { width: 50%; }
-.size-1of3 { width: 33.333%; }
+.size-1of2 {
+    width: 50%;
+}
+/* Configurate salvattore with media queries */
+@media screen and (max-width: 450px) {
+    #timeline[data-columns]::before {
+        content: '1 .column';
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    #timeline[data-columns]::before {
+        content: '2 .column.size-1of2';
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 850px) {
+    #timeline[data-columns]::before {
+        content: '3 .column.size-1of3';
+    }
+}
+@media screen and (min-width: 851px) {
+    #timeline[data-columns]::before {
+        content: '4 .column.size-1of4';
+    }
+}

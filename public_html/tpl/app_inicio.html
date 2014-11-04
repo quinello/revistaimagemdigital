@@ -1,0 +1,72 @@
+<div id="container" class="container-fluid clearfix" ng-controller="NewsController as newsCtrl">
+    <!--         logo preto -->
+    <div class="mitem">
+        <div class="border-radio-top border-radio-botton" style="background-color: black;">      
+            <div class="custom-logo">      
+                <img class="img-responsive border-radio-top" ng-src="img/logo_revista_fundo_preto.png" />                           
+            </div>
+            <div class="lead text-left padder-md padder-v"  style="font-weight: bolder; color: white;">
+                <p>A Revista Imagem aborda as vivencias da população de São José do Rio Pardo reavivando nossa cultura e tradição, sem perder de vista o moderno.</p>
+            </div>
+        </div>
+    </div>
+    <!--         logo preto -->
+
+    <!--         carousel -->
+    <div class="mitem featured">
+        <div ng-controller="CarouselDemoCtrl" class="panel border-radio-botton border-radio-top" set-ng-animate="false" style="background: transparent;">
+            <div class="panel-heading border-radio-top" style="background: black;">
+            </div>
+            <carousel interval="myInterval">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <img ng-src="{{slide.image}}" class="img-full" >
+                    <div class="carousel-caption">                            
+                        <h4>{{slide.text}}</h4>                            
+                    </div>
+                </slide>
+            </carousel>
+            <div class="panel-footer border-radio-botton" style="background: black;">
+                <div class="bg-danger wrapper-xs text-center" style="background: black;">          
+                    <h4 class="text-u-c m-n"><strong>Segmentos da Revista Imagem</strong></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--         / carousel -->
+
+    <!--     Blocos reportagens -->
+    <div ng-class="new .tamanho" ng-repeat="new in newsCtrl.news" ng-if="SegmentoMarkIt(new .segment)" >
+        <div class="thumbnail no-padder border-radio-top border-radio-botton">                    
+            <a ui-sref={{new.link}}>
+                <img ng-src="{{new .imagem}}" class="img-responsive border-radio-top" />
+            </a>
+            <div class="post">
+                <a ui-sref={{new.link}}>
+                    <h3 class="h3">{{new .capa}}</h3>
+                    <h4 class="h4">{{new .title}}</h4>
+                    <p class="p">{{new .texto_resumo}}</p>         
+                    <button class="btn btn-link">Continue lendo...</button>
+                </a>
+            </div>
+            <div class="bg-danger wrapper-xs text-center border-radio-botton" style="background: {{new .cor}}">          
+                <h5 class="text-u-c m-n"><strong>{{new .segment}}</strong></h5>
+            </div>
+        </div>
+    </div> 
+    <!--  Blocos reportagens -->
+</div> 
+<script src="js/masonry/masonry.pkgd.js" type="text/javascript"></script>
+<script src="js/masonry/imagesloaded.pkgd.js" type="text/javascript"></script>
+<script>
+                                var container = document.querySelector('#container');
+                                var msnry;
+                                // initialize Masonry after all images have loaded
+                                imagesLoaded(container, function() {
+                                msnry = new Masonry(container, {
+                                    columnWidth: 320,
+                                    itemSelector: '.mitem',
+                                    isFitWidth: true,
+                                    isAnimated: !Modernizr.csstransitions
+                                });
+                                });
+</script>  

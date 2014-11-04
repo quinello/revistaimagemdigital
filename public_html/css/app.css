@@ -1091,7 +1091,7 @@ body {
 @media (min-width: 992px) {
   .app.container {
     width: 970px;
-  }
+ }
   .app.container .app-header,
   .app.container .app-aside {
     max-width: 970px;
